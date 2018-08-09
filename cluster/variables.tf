@@ -25,5 +25,3 @@ variable enable_database_auth {
 variable apply_immediately {
   default = "true"
 }
-
-variable subnet_group_name {}
