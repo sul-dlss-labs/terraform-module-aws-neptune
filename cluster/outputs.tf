@@ -1,23 +1,11 @@
 output "cluster_resource_id" {
-  value = "${aws_neptune_cluster.neptune_cluster.cluster_resource_id}"
-}
-
-output "cluster_members" {
-  value = "${aws_neptune_cluster.neptune_cluster.cluster_members}"
+  value = "cluster-XMBLVJ73E4YLWRMVNF6XUETWHU"
 }
 
 output "endpoint" {
-  value = "${aws_neptune_cluster.neptune_cluster.endpoint}"
-}
-
-output "hosted_zone_id" {
-  value = "${aws_neptune_cluster.neptune_cluster.hosted_zone_id}"
-}
-
-output "id" {
-  value = "${aws_neptune_cluster.neptune_cluster.id}"
+  value = "rialto-dev.cluster-clqwjadk8neo.us-west-2.neptune.amazonaws.com"
 }
 
 output "reader_endpoint" {
-  value = "${aws_neptune_cluster.neptune_cluster.reader_endpoint}"
+  value = "rialto-dev.cluster-ro-clqwjadk8neo.us-west-2.neptune.amazonaws.com"
 }
