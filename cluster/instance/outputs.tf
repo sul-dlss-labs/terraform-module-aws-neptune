@@ -1,9 +1,9 @@
 output "address" {
-  value = "${aws_neptune_cluster_instance.neptune_cluster_instance.address}"
+  value = "rialto-dev.clqwjadk8neo.us-west-2.neptune.amazonaws.com:8182"
 }
 
 output "arn" {
-  value = "${aws_neptune_cluster_instance.neptune_cluster_instance.arn}"
+  value = "arn:aws:rds:us-west-2:418214828013:db:rialto-dev"
 }
 
 output "endpoint" {
@@ -14,5 +14,5 @@ output "port" {
   value = "8182"
 }
 output "id" {
-  value = "${aws_neptune_cluster_instance.neptune_cluster_instance.id}"
+  value = "db-AQQNMZM3XO2YGLBJXK7YYT3O4I"
 }
