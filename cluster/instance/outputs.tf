@@ -7,7 +7,7 @@ output "arn" {
 }
 
 output "endpoint" {
-  value = "rialto-dev.clqwjadk8neo.us-west-2.neptune.amazonaws.com"
+  value = "rialto-dev.clqwjadk8neo.us-west-2.neptune.amazonaws.com:8182"
 }
 
 output "port" {
