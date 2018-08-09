@@ -11,5 +11,5 @@ output "reader_endpoint" {
 }
 
 output "id" {
-  value "${var.cluster_id}"
+  value = "${var.cluster_id}"
 }
