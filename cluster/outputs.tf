@@ -9,3 +9,7 @@ output "endpoint" {
 output "reader_endpoint" {
   value = "rialto-dev.cluster-ro-clqwjadk8neo.us-west-2.neptune.amazonaws.com"
 }
+
+output "id" {
+  value "${var.cluster_id}"
+}
