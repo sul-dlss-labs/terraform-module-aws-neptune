@@ -16,3 +16,7 @@ output "port" {
 output "id" {
   value = "db-AQQNMZM3XO2YGLBJXK7YYT3O4I"
 }
+
+output "security_group_id" {
+  value = "sg-0923b671776b8ece1"
+}
